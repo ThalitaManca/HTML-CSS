@@ -1,0 +1,72 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+
+:root {
+    --cor0: #B8FF91;
+    --cor1: #86FF45;
+    --cor2: #8ABF6D;
+    --cor3: #5EB330;
+    --cor4: #437F22;
+
+    
+    --fonte-padrao:arial,verdana,helvetica,sans-serif;
+    --fonte-destaque:'Fira Sans', sans-serif;
+}
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+body {
+    background-color:var(--cor0) ;
+    font-family: var(--fonte-destaque);
+}
+
+main {
+    min-width: 800px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: var(--cor3);
+}
+
+header > h1 {
+    color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+header > p {
+    color: var(--cor0);
+}
+
+nav {
+    background-color: var(--cor3);
+}
+
+main {
+    background-color: #B8FF91;
+}
+
+main h1 {
+    color:var(--cor4);
+    font-family: var(--fonte-padrao);
+}
+
+main h2 {
+    color: var(--cor4);
+    font-family: var(--fonte-padrao);
+}
+
+main img {
+    width: 50 px;
+    display: block;
+    margin: auto;
+}
+ footer {
+     background-color: var(--cor4);
+     color: white;
+ }
